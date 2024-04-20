@@ -94,7 +94,7 @@ def handle_back(message):
 
 
 # Запуск бота
-while True:
+while True: 
     try:
         bot.polling(non_stop=True)
     except:
